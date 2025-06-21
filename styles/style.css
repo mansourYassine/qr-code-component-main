@@ -19,7 +19,7 @@ body {
 }
 
 /* Style the container */
-.container {
+main {
     background-color: hsl(0, 0%, 100%);
     width: 300px;
     height: 470px;
@@ -45,7 +45,7 @@ body {
 }
 
 /* style image */
-.container .qr-code-img img{
+main .qr-code-img img{
     width: 270px;
     height: 270px;
     border-radius: 15px;
@@ -58,7 +58,7 @@ body {
 }
 
 /* Styles the informations */
-.container .qr-code-informations {
+main .qr-code-informations {
     text-align: center;
     width: 250px;
     height: 120px;
@@ -68,14 +68,14 @@ body {
     bottom: 45px;
 }
 
-.container .qr-code-informations h1{
+main .qr-code-informations h1{
     color: hsl(218, 44%, 22%);
     font-size: 21px;
     font-weight: 700;
     margin-bottom: 18px;
 }
 
-.container .qr-code-informations p{
+main .qr-code-informations p{
     color: hsl(216, 15%, 48%);
     font-weight: 400;
     font-size: 15px;
